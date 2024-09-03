@@ -1,0 +1,82 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=avrcpu
+[Library]
+avrcpu=.\avrcpu\avrcpu.lib
+[$LibMap$]
+avrcpu=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\My_Designs\AvrCpu\avrcpu\src
+[Files]
+/avr_cpu.vhd=-1
+/general_mux.vhd=-1
+/new_pc.vhd=-1
+/retlatch.vhd=-1
+/write_back.vhd=-1
+/alu.vhd=-1
+/datamem.vhd=-1
+/control_logic.vhd=-1
+/program_counter.vhd=-1
+/instruction_reg_buffer.vhd=-1
+/package.vhd=-1
+/flash_pm_memory.vhd=-1
+/inc_dec_16.vhd=-1
+/branch_entity.vhd=-1
+/register_file.vhd=-1
+/avr_cpu_tb.vhd=-1
+/binary_counter.vhd=-1
+/clk_prescalar.vhd=-1
+/singleslopepwm.vhd=-1
+/wavee.asdb=-1
+/wavee.awc=-1
+[Files.Data]
+.\src\avr_cpu.vhd=VHDL Source Code
+.\src\general_mux.vhd=VHDL Source Code
+.\src\new_pc.vhd=VHDL Source Code
+.\src\retlatch.vhd=VHDL Source Code
+.\src\write_back.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\datamem.vhd=VHDL Source Code
+.\src\control_logic.vhd=VHDL Source Code
+.\src\program_counter.vhd=VHDL Source Code
+.\src\instruction_reg_buffer.vhd=VHDL Source Code
+.\src\package.vhd=VHDL Source Code
+.\src\flash_pm_memory.vhd=VHDL Source Code
+.\src\inc_dec_16.vhd=VHDL Source Code
+.\src\branch_entity.vhd=VHDL Source Code
+.\src\register_file.vhd=VHDL Source Code
+.\src\avr_cpu_tb.vhd=VHDL Source Code
+.\src\binary_counter.vhd=VHDL Source Code
+.\src\clk_prescalar.vhd=VHDL Source Code
+.\src\singleslopepwm.vhd=VHDL Source Code
+.\src\wavee.asdb=Accelerated Waveform File
+.\src\wavee.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=avr_cpu_tb|testbench|0
+ShowHide=ShowTopLevel
+Selected=
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=0
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
